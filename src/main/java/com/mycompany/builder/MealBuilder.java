@@ -14,6 +14,7 @@ public class MealBuilder {
         Meal meal = new Meal();
         meal.addItem(new VegBurger());
         meal.addItem(new Coke());
+        meal.addItem(new FrenchFries());
         return meal;
     }
     
@@ -21,13 +22,8 @@ public class MealBuilder {
         Meal meal = new Meal();
         meal.addItem(new ChickenBurger());
         meal.addItem(new Pepsi());
+        meal.addItem(new DeluxeFries());
         return meal;
     }
     
-        public Meal prepareNoVegMeal2() {
-        Meal meal = new Meal();
-        meal.addItem(new VegBurger());
-        meal.addItem(new Pepsi());
-        return meal;
-    }
 }
